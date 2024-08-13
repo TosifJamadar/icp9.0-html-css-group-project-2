@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.Style{
+    font-family: "Dancing Script", cursive;
+}
 .nav_bar{
     display: flex;
     height: 70px;
