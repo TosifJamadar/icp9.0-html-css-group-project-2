@@ -129,3 +129,36 @@ a:hover{
     margin: 50px 0 0 20px;
     border-radius: 50%;
 }
+
+
+
+.Footer{
+    height: 400px;
+    width: 100%;
+    margin-top: 150px;
+    background-color: #232946;
+}
+#Logo_img{
+    height: 150px;
+    width: 150px;
+    margin: 20px 0 0 620px;
+}
+#Footer_Heading{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#Footer_Description{
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+#Footer_img{
+    margin-left: 620px;
+}
+#icon_img{
+    height: 30px;
+    width: 30px;
+    margin: 10px 0 0 10px;
+}
