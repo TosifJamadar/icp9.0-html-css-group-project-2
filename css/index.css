@@ -37,3 +37,47 @@ a:hover{
     color: red;
     transition: 1s;
 }
+.index{
+    height: 663px;
+    width: 100vw;
+}
+
+.home{
+    display: flex;
+    height: 590px;
+    margin-top: 40px;
+    width: 100%;
+}
+.Left_Home{
+    height: 300px;
+    width: 450px;
+    margin: 150px 0 0 150px; 
+}
+#home_heading{
+    font-size: 30px;
+    text-align: center;
+}
+#home_heading_1{
+    font-size: 50px;
+    color: #232946;
+    font-weight: 900;
+   text-align: center;
+}
+#Medal_img{
+    height: 50px;
+    width:50px;
+}
+#home_heading_2{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+.Right-Home{
+    height: 500px;
+    width: 450px;
+    margin: 0 0 0 230px;
+}
+#img{
+    height: 550px;
+    width: 500px;
+}
