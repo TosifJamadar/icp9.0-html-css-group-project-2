@@ -1,6 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+   
+    
+}
+body{
+   background-image: url(https://img.freepik.com/free-photo/top-view-medical-masks-disinfectant_23-2148779140.jpg?uid=R154829538&ga=GA1.1.1483435555.1718290681&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
 .nav_bar{
 display: flex;
@@ -21,6 +29,7 @@ color: white;
 display: flex;
 margin: 15px 0 0 20px;
 padding: 10px;
+background-color: black;
 }
 #Nav_Pages{
 font-size: 18px;
@@ -28,123 +37,61 @@ margin: 0 0 0 30px;
 }
 a{
 text-decoration: none;
-color: black;
+color: white;
+
 }
 a:hover{
 color: red;
 transition: 1s;
 }
-.Shopping{
-    display: flex;
-  
-    
 
-  
 
-}
-.parent{
-    border: 1px solid black;
-   
-    border-radius: 10px;
-    margin-left: 100px;
-    margin-top: 60px;
-
-  
-    
-}
-.parent:hover{
-    box-shadow: 0px 0px 10px  5px gray;
-   
-}
-.img1{
-    margin-left: 50px;
+nav {
     background-color: gray;
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    margin-left: 500px;
     border-radius: 10px;
-    margin-top: 10px;
-    transition: 0.5s;
+
     
 }
-.img1:hover{
-  transform: scale(1.1);
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-.pname{
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-left: 10px;
+
+nav ul li {
+    float: left;
+    margin-left: 100px;
 }
-.price{
-    font-size: 20px;
-    font-weight: 500;    
-}
-.size{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;  
-}
-.size p{
-    font-size: 18px;
-    font-weight: 500;
-}
-.psize{
-    width: 60px;
-    height: 30px;
-    border: 1px solid #ff5e00;
-    color: #ff0000;
-    text-align: center;
-    margin: 0 5px;
-    cursor: pointer;
-}
-.psize.active{
-    border-width: 1.5px;
-    color: #3333ff;
-    font-weight: 500;
-}
-.quantity{
-    display: flex;
-    margin-left: 10px;
-}
-.quantity p{
-    font-size: 18px;
-    font-weight: 500;
-}
-.quantity input{
-    width: 40px;
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    margin-left: 15px;
-}
-.btn-box{
-    display: flex;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-.btn-box button{
-    font-size: 18px;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    cursor: pointer;
+
+nav ul li a {
+    display: block;
     color: white;
-    margin: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-.cart-btn{
-    background-color: #ffcc00;
-    margin-right: 20px;
+
+nav ul li a:hover {
+    background-color: #111;
 }
-.buy-btn{
-    background-color: #ffcc00;
+
+.content {
+    padding: 20px;
 }
-.cart-btn:hover{
-    background-color: #ff9933;
-    transition: 0.5s;
+
+.bag-heading{
+  
+  
+
 }
-.buy-btn:hover{
-    background-color: #ff9933;
-    transition: 0.5s;
-}
-.star{
-    margin-left: 10px;
+.bag{
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
 }
