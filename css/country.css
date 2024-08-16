@@ -1,0 +1,24 @@
+.nav_bar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-image: url(../img/blue-smooth-wall-textured-background.jpg);
+}
+#Logo{
+    height: 50px;
+    width: 50px;
+    margin: 0 0 0 40px ;
+}
+#Nav_title{
+    font-size: 30px;
+    color: rgb(182, 58, 58);
+}
+.Nav_Content{
+    display: flex;
+    margin: 15px 0 0 20px;
+    padding: 10px;
+}
+#Nav_Pages{
+    font-size: 18px;
+    margin: 0 0 0 30px;
+}
