@@ -2,7 +2,9 @@
     display: flex;
     height: 70px;
     width: 100%;
-    background-image: url(../img/blue-smooth-wall-textured-background.jpg);
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 #Logo{
     height: 50px;
@@ -21,4 +23,9 @@
 #Nav_Pages{
     font-size: 18px;
     margin: 0 0 0 30px;
+}
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5f343ff9541cd11433040eca/1698663595358-ZP24UW8AHAWBNLYS6BE5/PARIS.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
