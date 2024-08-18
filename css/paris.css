@@ -58,6 +58,7 @@
     border-radius: 20px;
     background-color: rgb(227, 194, 29);
     border: none;
+    cursor:pointer;
 }
 #Content_btn-game:hover{
     box-shadow: 2px 2px 2px 2px black;
