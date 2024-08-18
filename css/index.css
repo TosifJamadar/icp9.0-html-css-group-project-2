@@ -95,6 +95,11 @@ a:hover{
     margin: 50px 0 0 50px;
     border-radius: 10px;
 }
+.Content:hover{
+    box-shadow: 0 0 20px 7px  #232946;
+    transition: 1s;
+    cursor: pointer;
+}
 #Content_Heading{
     font-size: 50px;
     color: white;
@@ -110,8 +115,12 @@ a:hover{
     font-size: 20px;
     padding: 5px 20px;
     border-radius: 20px;
-    background-color: rgb(227, 194, 29);
+    background-color: #ffdb4d;
     border: none;
+}
+#Content_btn:hover{
+    background-color: #ffa31a;
+    transition: 1s;
 }
 #Champian_heading{
     margin-top: 50px;
@@ -127,7 +136,10 @@ a:hover{
     height: 200px;
     width: 200px;
     margin: 50px 0 0 20px;
-    border-radius: 50%;
+    border-radius: 20%;
+}
+#Champian:hover{
+    box-shadow: 0 0 10px 7px gray;
 }
 .Footer{
     height: 400px;
