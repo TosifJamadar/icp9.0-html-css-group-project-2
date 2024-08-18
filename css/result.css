@@ -1,18 +1,19 @@
 .container {
+    
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-    border-radius: 10px solid grey;
-    padding-top: 10px;
+    margin-top: 20px;
 
 }
+ 
 .game-card {
     width: 250px;
      border: 1px solid #ddd;
     padding: 10px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
+    border: 1px solid black;
+   
+    border-radius: 10px;}
 .center{
     text-align: center;
     color:red;
@@ -22,8 +23,6 @@
     color:blue;
 }
 .game-card:hover{
-             border: 1px solid grey;
-             box-shadow: 0px 1px 0px rgb(123, 117, 85);
-
- 
+    box-shadow: 0px 0px 10px  5px gray;
+    transform: scale(1.0);
 }
