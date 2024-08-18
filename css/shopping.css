@@ -1,20 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
 *{
     margin: 0;
     padding: 0;
-   
-    
-}
-body{
-   background-image: url(https://img.freepik.com/free-photo/top-view-medical-masks-disinfectant_23-2148779140.jpg?uid=R154829538&ga=GA1.1.1483435555.1718290681&semt=ais_hybrid);
-    background-repeat: no-repeat;
-    background-size: cover;
- 
 }
 .nav_bar{
 display: flex;
 height: 70px;
 width: 100%;
-
+background-image: url(./blue-smooth-wall-textured-background.jpg);
 }
 #Logo{
 height: 50px;
@@ -29,7 +29,6 @@ color: white;
 display: flex;
 margin: 15px 0 0 20px;
 padding: 10px;
-background-color: black;
 }
 #Nav_Pages{
 font-size: 18px;
@@ -38,7 +37,6 @@ margin: 0 0 0 30px;
 a{
 text-decoration: none;
 color: white;
-
 }
 a:hover{
 color: red;
@@ -54,7 +52,7 @@ nav {
     margin-left: 500px;
     border-radius: 10px;
 
-    
+
 }
 
 nav ul {
@@ -85,12 +83,9 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.bag-heading{
-  
-  
+.bag-heading {}
 
-}
-.bag{
+.bag {
     background-size: cover;
     height: 600px;
     width: 1500px;
