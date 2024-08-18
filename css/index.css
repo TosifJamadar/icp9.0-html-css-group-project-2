@@ -177,14 +177,14 @@ a:hover{
     color: white;
 }
 #Footer_Icon{
-    margin-top: 30px;
+    margin: 30px 0 0 10px;
     height: 30px;
     width: 30px;
 }
 #Heading{
     font-size: 25px;
     color: white;
-    margin-bottom: 10px;
+    margin: 0 0 10px 40px;
 }
 #Quick_Content{
     color: white;
