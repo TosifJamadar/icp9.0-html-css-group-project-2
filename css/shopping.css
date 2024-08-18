@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav_bar{
+display: flex;
+height: 70px;
+width: 100%;
+background-image: url(./blue-smooth-wall-textured-background.jpg);
+}
+#Logo{
+height: 50px;
+width: 50px;
+margin: 0 0 0 40px ;
+}
+#Nav_title{
+font-size: 30px;
+color: white;
+}
+.Nav_Content{
+display: flex;
+margin: 15px 0 0 20px;
+padding: 10px;
+}
+#Nav_Pages{
+font-size: 18px;
+margin: 0 0 0 30px;
+}
+a{
+text-decoration: none;
+color: white;
+}
+a:hover{
+color: red;
+transition: 1s;
+}
+
+
+nav {
+    background-color: gray;
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    margin-left: 500px;
+    border-radius: 10px;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 100px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.content {
+    padding: 20px;
+}
+
+.bag-heading {}
+
+.bag {
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+}
