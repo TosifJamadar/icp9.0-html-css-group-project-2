@@ -2,10 +2,10 @@
     
     border-radius: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 20px;
     flex-wrap: wrap;
-
+ padding-top: 10px;
 
 }
  
