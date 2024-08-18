@@ -40,15 +40,7 @@ p {
     margin-bottom: 15px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #020637;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+
 .btn{
     background-color: black;
     color:white;
@@ -62,7 +54,4 @@ footer {
     box-shadow: 3px 3px 3px 3px rgb(1, 1, 73);
     transition: 0.5sec;
 
-}
-.card{
-    
 }
