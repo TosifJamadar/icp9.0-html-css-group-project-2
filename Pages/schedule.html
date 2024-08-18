@@ -15,10 +15,16 @@
             padding: 0;
             color: #333;
         }
+        h1, h2 {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow effect for all headings */
+        }
         h1 {
             text-align: center;
             margin: 20px 0;
             font-size: 2.5em;
+            border: 3px solid #333; /* Border for headings */
+            padding: 10px;
+            border-radius: 8px;
         }
         .games-list {
             display: flex;
@@ -48,6 +54,7 @@
             max-width: 100px;
             height: auto;
             margin-bottom: 10px;
+            border: 2px solid black; /* Black border for main page images */
         }
 
         section {
@@ -59,12 +66,22 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        section img {
+        section img , section video {
             max-width: 100%;
             height: auto;
             display: block;
-            margin-bottom: 20px;
+            margin: 20px auto; /* Center the image and video */
+            border: 2px solid black; /* Black border for schedule images and videos */
         }
+        .video-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .video-container video {
+            max-width: 100%;
+            border: 2px solid black; /* Black border for videos */
+            border-radius: 8px;
+
 
         ul {
             list-style-type: none;
@@ -194,8 +211,15 @@
             <li><strong>Time:</strong> 2:00 PM</li>
             <li><strong>Venue:</strong> Aquatics Center</li>
         </ul>
-        <footer><a href="#top">Back to Top</a></footer>
+        <div class="video-container">
+            <video controls>
+                <source src="path_to_swimming_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <footer><a href="#home">Back to Home</a></footer>
     </section>
+        
 
     <section id="gymnastics-schedule">
         <h1>Gymnastics Schedule</h1>
