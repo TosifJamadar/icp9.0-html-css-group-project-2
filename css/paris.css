@@ -26,3 +26,42 @@
     display:flex;
     justify-content: space-around;
 }
+.Container-game{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.Content-game{
+    height: 450px;
+    width: 550px;
+    background-color: #233545;
+    margin: 50px 0 0 50px;
+    border-radius: 10px;
+}
+#Content_Heading-game{
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+#Content_Decription-game{
+    margin: 10px;
+    color: white;
+}
+#Content_btn-game{
+    display: flex;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: rgb(227, 194, 29);
+    border: none;
+}
+#Content_btn-game:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
+.Content-game:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
