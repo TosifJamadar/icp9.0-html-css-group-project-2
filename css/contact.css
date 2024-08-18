@@ -42,19 +42,19 @@ color: red;
 transition: 1s;
 }
 
-.form-text{
-    font-size: 27px;
-    text-align: center;
-    margin: 20px auto;
-}
-
 .main{
     display: flex;
-    margin: 20px auto;
+    margin: 50px auto;
+}
+
+.form-text{
+    font-size: 27px;
+    font-family: "Dancing Script",cursive;
+    margin: 20px 0 20px 20px;
 }
 
 .form{
-    padding: 20px 20px 0 20px;
+    padding: 10px 20px 0 20px;
     margin: 10px 20px;
 }
 
@@ -85,7 +85,30 @@ transition: 1s;
 }
 
 .g-map{
-    margin: 0 20px 0 70px;
+    margin: 0 20px 0 50px;
+}
+
+.g-map-info{
+    padding: 20px 0 0 0;
+    margin: 0 30px;
+}
+
+.link1{
+    color: rgb(111, 98, 231);
+}
+
+.link1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.link2{
+    color: rgb(111, 98, 231);
+}
+
+.link2:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .Footer{
