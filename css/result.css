@@ -15,10 +15,14 @@
 }
 .center{
     text-align: center;
-    color: blue;
+    color:red;
+    font-family: cursive;
+}
+.center:hover{
+    color:blue;
 }
 .game-card:hover{
-             border: 2px solid grey;
+             border: 1px solid grey;
              box-shadow: 0px 1px 0px rgb(123, 117, 85);
 
  
