@@ -55,4 +55,11 @@ footer {
     height:30px;
     padding:0px 10px;
     border-radius: 0px 15px 0px 15px;
+    box-shadow: 1px 1px 1px 1px rgb(1, 1, 73);
+    cursor:pointer;
+}
+.btn:hover{
+    box-shadow: 3px 3px 3px 3px rgb(1, 1, 73);
+    transition: 0.5sec;
+
 }
