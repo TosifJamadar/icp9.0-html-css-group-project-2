@@ -29,3 +29,31 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #7e7777;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(2) {
+    background-color: #ade9e1;
+  }
+  tr:nth-child(3){
+    background-color: rgb(235, 177, 232);
+    opacity: 0.8;
+  }
+  h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 20px;
+    color: rgb(207, 207, 35);
+  }
+  body{
+    background-color: aqua;
+  }
