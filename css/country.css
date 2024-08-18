@@ -1,0 +1,31 @@
+.nav_bar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Logo{
+    height: 50px;
+    width: 50px;
+    margin: 0 0 0 40px ;
+}
+#Nav_title{
+    font-size: 30px;
+    color: rgb(182, 58, 58);
+}
+.Nav_Content{
+    display: flex;
+    margin: 15px 0 0 20px;
+    padding: 10px;
+}
+#Nav_Pages{
+    font-size: 18px;
+    margin: 0 0 0 30px;
+}
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5f343ff9541cd11433040eca/1698663595358-ZP24UW8AHAWBNLYS6BE5/PARIS.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
