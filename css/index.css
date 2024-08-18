@@ -144,32 +144,58 @@ a:hover{
     cursor: pointer;
 }
 .Footer{
-    height: 400px;
+    display: flex;
+    height: 300px;
     width: 100%;
-    margin-top: 150px;
     background-color: #232946;
+    margin-top: 100px;
+    justify-content: center;
 }
-#Logo_img{
-    height: 150px;
-    width: 150px;
-    margin: 20px 0 0 620px;
+.G-11{
+    margin: 30px 0 0 30px;
+    height: 230px;
+    width: 350px;
 }
-#Footer_Heading{
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
+.Quick{
+    display: flex;
 }
-#Footer_Description{
-    color: white;
-    text-align: center;
-    margin: 5px;
+#Quick_Left{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+}
+#Quick_Right{
+    height: 100px;
+    width: 100px;
 }
 #Footer_img{
-    margin-left: 620px;
+    height: 50px;
+    width: 50px;
 }
-#icon_img{
+#Footer_heading{
+    font-size: 25px;
+    color: white;
+}
+#Footer_Icon{
+    margin-top: 30px;
     height: 30px;
     width: 30px;
-    margin: 10px 0 0 10px;
+}
+#Heading{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+#Quick_Content{
+    color: white;
+    margin: 5px;
+}
+#Contact_heading{
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+#Contact{
+    margin-left: 90px;
+    color: white;
 }
