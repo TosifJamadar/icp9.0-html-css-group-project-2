@@ -121,6 +121,7 @@ a:hover{
 #Content_btn:hover{
     background-color: #ffa31a;
     transition: 1s;
+    cursor: pointer;
 }
 #Champian_heading{
     margin-top: 50px;
@@ -140,6 +141,7 @@ a:hover{
 }
 #Champian:hover{
     box-shadow: 0 0 10px 7px gray;
+    cursor: pointer;
 }
 .Footer{
     height: 400px;
