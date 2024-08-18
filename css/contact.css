@@ -64,3 +64,10 @@ transition: 1s;
     padding: 10px 0 10px 10px;
     margin: 0 10px 20px 20px;
 }
+
+.input-box1{
+    width: 400px;
+    height: 40px;
+    padding: 0 0 10px 10px;
+    margin: 0 10px 20px 20px;
+}
