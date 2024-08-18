@@ -154,7 +154,7 @@ a:hover{
 .G-11{
     margin: 30px 0 0 30px;
     height: 230px;
-    width: 350px;
+    width: 370px;
 }
 .Quick{
     display: flex;
@@ -166,7 +166,7 @@ a:hover{
 }
 #Quick_Right{
     height: 100px;
-    width: 100px;
+    width: 150px;
 }
 #Footer_img{
     height: 50px;
@@ -188,7 +188,7 @@ a:hover{
 }
 #Quick_Content{
     color: white;
-    margin: 5px;
+    margin: 10px;
 }
 #Contact_heading{
     margin-left: 50px;
@@ -196,6 +196,10 @@ a:hover{
     margin-bottom: 10px;
 }
 #Contact{
-    margin-left: 90px;
+    margin-left: 50px;
     color: white;
+}
+#location{
+    height: 20px;
+    width: 20px;
 }
