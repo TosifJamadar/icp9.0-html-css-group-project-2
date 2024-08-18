@@ -71,3 +71,15 @@ transition: 1s;
     padding: 0 0 10px 10px;
     margin: 0 10px 20px 20px;
 }
+
+.form-btn{
+    background-color: rgb(227, 194, 29);
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 37px;
+    font-size: 17px;
+    margin: 0 10px 20px 170px;
+}
