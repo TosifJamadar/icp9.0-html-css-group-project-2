@@ -142,6 +142,7 @@ a:hover{
 #Champian:hover{
     box-shadow: 0 0 10px 7px gray;
     cursor: pointer;
+    border: 2px solid black;
 }
 .Footer{
     display: flex;
@@ -177,14 +178,14 @@ a:hover{
     color: white;
 }
 #Footer_Icon{
-    margin-top: 30px;
+    margin: 20px 0 0 10px;
     height: 30px;
     width: 30px;
 }
 #Heading{
     font-size: 25px;
     color: white;
-    margin-bottom: 10px;
+    margin: 0 0 10px 40px;
 }
 #Quick_Content{
     color: white;
