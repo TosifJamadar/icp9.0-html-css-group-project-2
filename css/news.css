@@ -44,6 +44,12 @@
     height: 400px;
     width: 730px;
     margin-top: 10px;
+    border: 1px solid black;
+}
+#News_img:hover{
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 75%;
+    transition: 2s;
 }
 #Heading_1{
     font-size: 30px;
