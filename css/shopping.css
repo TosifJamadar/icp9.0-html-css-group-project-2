@@ -1,11 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-
-
 }
-
-
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +11,12 @@ display: flex;
 height: 70px;
 width: 100%;
 background-image: url(../img/blue-smooth-wall-textured-background.jpg);
+}
+.Nav_bar_2{
+    height: 50px;
+    width: 630px;
+    background-image: url(../img/blue-smooth-wall-textured-background.jpg);
+    margin-left: 380px;
 }
 #Logo{
 height: 50px;
@@ -51,8 +53,6 @@ nav {
     height: 50px;
     margin-left: 500px;
     border-radius: 10px;
-
-
 }
 
 nav ul {
@@ -89,4 +89,70 @@ nav ul li a:hover {
     background-size: cover;
     height: 600px;
     width: 1500px;
+}
+.Footer{
+    display: flex;
+    height: 230px;
+    width: 100%;
+    background-color: #232946;
+    margin-top: 100px;
+    justify-content: center;
+}
+.G-11{
+    margin: 30px 0 0 30px;
+    height: 230px;
+    width: 370px;
+}
+.Quick{
+    display: flex;
+}
+#Quick_Left{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+}
+#Quick_Right{
+    height: 100px;
+    width: 150px;
+}
+#Footer_img{
+    height: 50px;
+    width: 50px;
+}
+#Footer_heading{
+    font-size: 25px;
+    color: white;
+}
+#Footer_Icon{
+    margin: 20px 0 0 10px;
+    height: 30px;
+    width: 30px;
+}
+#Heading{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 10px 40px;
+}
+#Quick_Content{
+    color: white;
+    margin: 10px;
+}
+#Contact_heading{
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+#Contact{
+    margin-left: 50px;
+    color: white;
+}
+#location{
+    height: 20px;
+    width: 20px;
+}
+#Copy{
+    background-color: #232946;
+    text-align: center;
+    color: white;
+    height: 50px;
 }
