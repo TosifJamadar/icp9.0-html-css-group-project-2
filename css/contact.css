@@ -108,7 +108,14 @@ transition: 1s;
     height: 50px;
     width: 50px;
 }
+
 #Footer_heading{
     font-size: 25px;
     color: white;
+}
+
+#Footer_Icon{
+    margin: 20px 0 0 10px;
+    height: 30px;
+    width: 30px;
 }
