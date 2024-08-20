@@ -2,7 +2,7 @@
     display: flex;
     height: 70px;
     width: 100%;
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/blue-smooth-wall-textured-background.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -24,8 +24,45 @@
     font-size: 18px;
     margin: 0 0 0 30px;
 }
-body{
-    background-image: url(https://images.squarespace-cdn.com/content/v1/5f343ff9541cd11433040eca/1698663595358-ZP24UW8AHAWBNLYS6BE5/PARIS.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+a{
+  text-decoration: none;
+  color: white;
 }
+a:hover{
+  color: red;
+  transition: 1s;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(2) {
+    background-color: #dfe2d8;
+    opacity: 0.8;
+  }
+  tr:nth-child(3){
+    background-color: rgb(248, 238, 248);
+    opacity: 0.8;
+  }
+   tr:nth-child(4){
+    background-color: rgb(219, 213, 219);
+    opacity: 0.8;
+  }
+  h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 20px;
+    color: rgb(207, 207, 35);
+  }
+  #anchor{
+    text-align:center;
+    color: rgb(85, 169, 207);
+  }
+ 
