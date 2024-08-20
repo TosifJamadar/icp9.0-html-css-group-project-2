@@ -7,6 +7,7 @@
     flex-wrap: wrap;
  padding-top: 10px;
  margin: 10px;
+ 
 
 }
  
@@ -15,6 +16,7 @@
      border: 1px solid #ddd;
     padding: 10px;
     border: 1px solid black;
+   margin-bottom: 30px;
    
     border-radius: 10px;}
 .center{
