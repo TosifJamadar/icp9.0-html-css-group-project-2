@@ -151,3 +151,8 @@ transition: 1s;
     color: white;
     margin-bottom: 10px;
 }
+
+#location{
+    height: 20px;
+    width: 20px;
+}
