@@ -5,7 +5,7 @@
 .nav_bar{
     display: flex;
     height: 70px;
-    width: 1000%;
+    width: 100%;
     background-image: url(../img/blue-smooth-wall-textured-background.jpg);
 }
 .Style{
