@@ -119,3 +119,24 @@ transition: 1s;
     height: 30px;
     width: 30px;
 }
+
+#Heading{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 10px 40px;
+}
+
+.Quick{
+    display: flex;
+}
+
+#Quick_Left{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+}
+
+#Quick_Content{
+    color: white;
+    margin: 10px;
+}
