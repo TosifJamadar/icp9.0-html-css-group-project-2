@@ -140,3 +140,14 @@ transition: 1s;
     color: white;
     margin: 10px;
 }
+
+#Quick_Right{
+    height: 100px;
+    width: 150px;
+}
+
+#Contact_heading{
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
