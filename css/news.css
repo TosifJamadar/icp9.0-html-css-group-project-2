@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.News_Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.News_Card_1{
+    margin: 20px 0 0 30px;
+    height: 280px;
+    width: 350px;
+    
+}
+#Card_img{
+    height: 200px;
+    width: 350px;
+}
+#News_Heading{
+    padding: 10px;
+}
+#News_Heading:hover{
+    transition: 1s;
+    cursor: pointer;
+    color: black;
+}
