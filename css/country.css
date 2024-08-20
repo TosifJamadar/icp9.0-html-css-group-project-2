@@ -1,10 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .nav_bar{
     display: flex;
     height: 70px;
-    width: 100%;
+    width: 1000%;
     background-image: url(../img/blue-smooth-wall-textured-background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+}
+.Style{
+  font-family: "Dancing Script",cursive;
 }
 #Logo{
     height: 50px;
@@ -65,4 +70,70 @@ table {
     text-align:center;
     color: rgb(85, 169, 207);
   }
+  .Footer{
+    display: flex;
+    height: 230px;
+    width: 100%;
+    background-color: #232946;
+    margin-top: 100px;
+    justify-content: center;
+}
+.G-11{
+    margin: 30px 0 0 30px;
+    height: 230px;
+    width: 370px;
+}
+.Quick{
+    display: flex;
+}
+#Quick_Left{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+}
+#Quick_Right{
+    height: 100px;
+    width: 150px;
+}
+#Footer_img{
+    height: 50px;
+    width: 50px;
+}
+#Footer_heading{
+    font-size: 25px;
+    color: white;
+}
+#Footer_Icon{
+    margin: 20px 0 0 10px;
+    height: 30px;
+    width: 30px;
+}
+#Heading{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 10px 40px;
+}
+#Quick_Content{
+    color: white;
+    margin: 10px;
+}
+#Contact_heading{
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+#Contact{
+    margin-left: 50px;
+    color: white;
+}
+#location{
+    height: 20px;
+    width: 20px;
+}
+#Copy{
+    background-color: #232946;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
  
