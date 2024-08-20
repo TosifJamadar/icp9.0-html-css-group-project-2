@@ -161,3 +161,10 @@ transition: 1s;
     margin-left: 50px;
     color: white;
 }
+
+#Copy{
+    background-color: #232946;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
