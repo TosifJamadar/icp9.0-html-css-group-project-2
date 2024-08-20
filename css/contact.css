@@ -90,40 +90,25 @@ transition: 1s;
 }
 
 .Footer{
-    height: 400px;
+    display: flex;
+    height: 230px;
     width: 100%;
     background-color: #232946;
-    display: flex;
-    flex-direction: column;
+    margin-top: 100px;
     justify-content: center;
 }
 
-#Logo_img{
-    height: 150px;
-    width: 150px;
-    margin: 0 0 0 690px;
-}
-
-#Footer_Heading{
-    font-size: 25px;
-    color: white;
-    text-align: center;
-}
-
-#Footer_Description{
-    color: white;
-    text-align: center;
-    margin: 5px;
+.G-11{
+    margin: 30px 0 0 30px;
+    height: 230px;
+    width: 370px;
 }
 
 #Footer_img{
-    display: flex;
-    justify-content: center;
-    margin: 10px 0 0 0;
+    height: 50px;
+    width: 50px;
 }
-
-#icon_img{
-    height: 30px;
-    width: 30px;
-    margin: 10px 0 0 10px;
+#Footer_heading{
+    font-size: 25px;
+    color: white;
 }
