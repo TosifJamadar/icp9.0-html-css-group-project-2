@@ -54,7 +54,7 @@
 #News_img:hover{
     box-shadow: 0 0 10px 5px gray;
     border-radius: 75%;
-    transition: 2s;
+    transition: 3s;
 }
 #Heading_1{
     font-size: 30px;
@@ -68,4 +68,18 @@
     height: 400px;
     width: 500px;
     margin: 60px 0 0 30px;
+}
+.Recommended{
+    display: flex;
+    height: 90px;
+    width: 490px;
+    margin-top: 10px;
+}
+#Alter_img{
+    height: 70px;
+    width: 130px;
+}
+#News_name{
+    padding: 10px;
+    color: black;
 }
