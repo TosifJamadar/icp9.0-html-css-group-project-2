@@ -11,12 +11,17 @@
     margin: 20px 0 0 30px;
     height: 280px;
     width: 350px;  
-    border: 1px solid black;
+    border-radius: 20px;
     background-color:  #232946;
 }
 #Card_img{
     height: 200px;
     width: 350px;
+    border-radius: 20px;
+}
+#Card_img:hover{
+    box-shadow: 0 0 10px 5px gray;
+    transition: 1s;
 }
 #News_Heading{
     padding: 10px;
