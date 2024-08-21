@@ -66,9 +66,10 @@ table {
     height: 20px;
     color: rgb(207, 207, 35);
   }
-  #anchor{
+  #anchor:hover{
     text-align:center;
     color: rgb(85, 169, 207);
+      transition: 2s;
   }
   .Footer{
     display: flex;
@@ -136,4 +137,33 @@ table {
     color: white;
     height: 50px;
 }
+/* Desktop view */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+    background-color: #f0f0f0;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header, .footer {
+    padding: 20px;
+  }
+}
+/* Phone view */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+    background-color: #ffffff;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  .header, .footer {
+    padding: 10px;
+  }
+}
+
  
