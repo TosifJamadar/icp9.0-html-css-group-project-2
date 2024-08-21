@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav_bar{
+display: flex;
+height: 70px;
+width: 100%;
+background-image: url(./../img/blue-smooth-wall-textured-background.jpg);
+}
+
+#Logo{
+height: 50px;
+width: 50px;
+margin: 0 0 0 40px ;
+}
+
+#Nav_title{
+font-size: 30px;
+color: white;
+}
+
+.Nav_Content{
+display: flex;
+margin: 15px 0 0 20px;
+padding: 10px;
+}
+
+#Nav_Pages{
+font-size: 18px;
+margin: 0 0 0 30px;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+a:hover{
+color: red;
+transition: 1s;
+}
+
+.main{
+    display: flex;
+    margin: 50px auto;
+}
+
+.form-text{
+    font-size: 35px;   
+    font-weight: bold;
+    font-family: "Dancing Script",cursive;
+    margin: 20px 0 20px 20px;
+}
+
+.form{
+    padding: 0 0 0 50px;
+}
+
+.input-box{
+    width: 400px;
+    height: 10px;
+    padding: 10px 0 10px 10px;
+    margin: 0 10px 20px 20px;
+}
+
+.input-box1{
+    width: 400px;
+    height: 40px;
+    padding: 0 0 10px 10px;
+    margin: 0 10px 20px 20px;
+}
+
+.form-btn{
+    background-color: rgb(227, 194, 29);
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 37px;
+    font-size: 17px;
+    margin: 0 10px 20px 170px;
+}
+
+.form-btn:hover{
+    background-color: #ffa31a;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.g-map{
+    margin: 0 20px 0 100px;
+    padding: 90px 0 0 0;
+}
+
+.Footer{
+    display: flex;
+    height: 230px;
+    width: 100%;
+    background-color: #232946;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.G-11{
+    margin: 30px 0 0 30px;
+    height: 230px;
+    width: 370px;
+}
+
+#Footer_img{
+    height: 50px;
+    width: 50px;
+}
+
+#Footer_heading{
+    font-size: 25px;
+    color: white;
+}
+
+#Footer_Icon{
+    margin: 20px 0 0 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#Heading{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 10px 40px;
+}
+
+.Quick{
+    display: flex;
+}
+
+#Quick_Left{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+}
+
+#Quick_Content{
+    color: white;
+    margin: 10px;
+}
+
+#Quick_Right{
+    height: 100px;
+    width: 150px;
+}
+
+#Contact_heading{
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#location{
+    height: 20px;
+    width: 20px;
+}
+
+#Contact{
+    margin-left: 50px;
+    color: white;
+}
+
+#Copy{
+    background-color: #232946;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
