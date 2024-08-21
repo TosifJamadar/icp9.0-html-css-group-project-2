@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav_bar{
+display: flex;
+height: 70px;
+width: 100%;
+background-image: url(../img/blue-smooth-wall-textured-background.jpg);
+}
+.Nav_bar_2{
+    height: 50px;
+    width: 630px;
+    background-image: url(../img/blue-smooth-wall-textured-background.jpg);
+    margin-left: 380px;
+}
+#Logo{
+height: 50px;
+width: 50px;
+margin: 0 0 0 40px ;
+}
+#Nav_title{
+font-size: 30px;
+color: white;
+}
+.Nav_Content{
+display: flex;
+margin: 15px 0 0 20px;
+padding: 10px;
+}
+#Nav_Pages{
+font-size: 18px;
+margin: 0 0 0 30px;
+}
+a{
+text-decoration: none;
+color: white;
+}
+a:hover{
+color: red;
+transition: 1s;
+}
+
+
+nav {
+    background-color: gray;
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 100px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.content {
+    padding: 20px;
+}
+
+.bag-heading {}
+
+.bag {
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+}
+.Footer{
+    display: flex;
+    height: 230px;
+    width: 100%;
+    background-color: #232946;
+    margin-top: 100px;
+    justify-content: center;
+}
+.G-11{
+    margin: 30px 0 0 30px;
+    height: 230px;
+    width: 370px;
+}
+.Quick{
+    display: flex;
+}
+#Quick_Left{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+}
+#Quick_Right{
+    height: 100px;
+    width: 150px;
+}
+#Footer_img{
+    height: 50px;
+    width: 50px;
+}
+#Footer_heading{
+    font-size: 25px;
+    color: white;
+}
+#Footer_Icon{
+    margin: 20px 0 0 10px;
+    height: 30px;
+    width: 30px;
+}
+#Heading{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 10px 40px;
+}
+#Quick_Content{
+    color: white;
+    margin: 10px;
+}
+#Contact_heading{
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+#Contact{
+    margin-left: 50px;
+    color: white;
+}
+#location{
+    height: 20px;
+    width: 20px;
+}
+#Copy{
+    background-color: #232946;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
