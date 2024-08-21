@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,9 +11,9 @@ background-image: url(../img/blue-smooth-wall-textured-background.jpg);
 }
 .Nav_bar_2{
     height: 50px;
-    width: 630px;
+    width: 800px;
     background-image: url(../img/blue-smooth-wall-textured-background.jpg);
-    margin-left: 380px;
+    margin-left: 300px;
 }
 #Logo{
 height: 50px;
@@ -155,4 +152,7 @@ nav ul li a:hover {
     text-align: center;
     color: white;
     height: 50px;
+}
+.img1{
+    height: 300px;
 }

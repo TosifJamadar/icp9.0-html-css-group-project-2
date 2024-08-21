@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0 ;
     padding: 0;
 }
 .Style{
@@ -209,4 +209,10 @@ a:hover{
     text-align: center;
     color: white;
     height: 50px;
+}
+.text-center{
+    text-align: center;
+}
+.span-highlight{
+    font-weight: bold;
 }

@@ -1,10 +1,5 @@
 .Shopping{
     display: flex;
-  
-    
-
-  
-
 }
 .parent{
     border: 1px solid black;
@@ -12,8 +7,6 @@
     border-radius: 10px;
     margin-left: 100px;
     margin-top: 60px;
-
-  
     
 }
 .parent:hover{
@@ -118,4 +111,19 @@
 }
 .why-choose-anchor-tag{
     text-decoration: none;
+}
+.backicon{
+    
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+ margin-left: 650px;
+ margin-bottom: 10px;
+
+
+ 
+}
+.nav-img{
+    height: 30px;
+    width: 30px;
 }
