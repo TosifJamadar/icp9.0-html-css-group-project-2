@@ -13,8 +13,8 @@ body {
 }
 
 header {
-   
-    color:black;
+
+    color: black;
     padding: 10px 0;
     text-align: center;
 }
@@ -72,7 +72,8 @@ form label {
     margin: 10px 0 5px;
 }
 
-form select, form input {
+form select,
+form input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -84,7 +85,7 @@ form select, form input {
     display: inline-block;
     padding: 10px 20px;
     background: yellow;
-    color:black;
+    color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -96,7 +97,8 @@ form select, form input {
     background: orange;
 }
 
-.additional-info, .customer-support {
+.additional-info,
+.customer-support {
     margin: 20px 0;
     padding: 20px;
     background: #fff;
@@ -105,8 +107,8 @@ form select, form input {
 }
 
 footer {
-    
-    color:black;
+
+    color: black;
     text-align: center;
     padding: 10px 0;
 }
@@ -120,7 +122,8 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-.product-image{
+
+.product-image {
     height: 100px;
-    
+
 }
