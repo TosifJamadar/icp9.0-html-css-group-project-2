@@ -83,3 +83,7 @@
     padding: 10px;
     color: black;
 }
+#News_name:hover{
+    color: blue;
+    transition: 1s;
+}
