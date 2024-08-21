@@ -75,8 +75,8 @@ main {
 }
 
 .checkout-btn {
-    background-color: #28a745;
-    color: white;
+    background-color: yellow;
+    color:black;
     border: none;
     padding: 1rem;
     border-radius: 5px;
@@ -85,7 +85,7 @@ main {
 }
 
 .checkout-btn:hover {
-    background-color: #218838;
+    background-color: orange;
 }
 
 footer {
@@ -97,4 +97,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-

@@ -1,65 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping Cart</title>
-    <link rel="stylesheet" href="../css/Addtocard.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/Addtocard.css" />
+  </head>
+  <body>
     <header>
-        <h1>Shopping Cart</h1>
+      <h1>Shopping Cart</h1>
     </header>
 
     <main>
-        <div class="cart-container">
-            <table class="cart-table">
-                <thead>
-                    <tr>
-                        <th>Item</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th>Total</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Product 1</td>
-                        <td>$10.00</td>
-                        <td>
-                            <input type="number" value="1" min="1">
-                        </td>
-                        <td>$10.00</td>
-                        <td>
-                            <button class="remove-btn">Remove</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Product 2</td>
-                        <td>$20.00</td>
-                        <td>
-                            <input type="number" value="1" min="1">
-                        </td>
-                        <td>$20.00</td>
-                        <td>
-                            <button class="remove-btn">Remove</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <div class="cart-container">
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Product 1</td>
+              <td>₹10.00</td>
+              <td>
+                <input type="number" value="1" min="1" />
+              </td>
+              <td>₹10.00</td>
+              <td>
+                <button class="remove-btn">Remove</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Product 2</td>
+              <td>₹20.00</td>
+              <td>
+                <input type="number" value="1" min="1" />
+              </td>
+              <td>₹20.00</td>
+              <td>
+                <button class="remove-btn">Remove</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
-            <div class="cart-summary">
-                <h2>Summary</h2>
-                <p>Total Items: <span id="total-items">2</span></p>
-                <p>Total Price: <span id="total-price">$30.00</span></p>
-                <button class="checkout-btn">Proceed to Checkout</button>
-            </div>
+        <div class="cart-summary">
+          <h2>Summary</h2>
+          <p>Total Items: <span id="total-items">2</span></p>
+          <p>Total Price: <span id="total-price">₹30.00</span></p>
+          <button class="checkout-btn">Proceed to Checkout</button>
         </div>
+      </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Company</p>
+      <p>&copy; 2024 Your Company</p>
     </footer>
-</body>
+  </body>
 </html>
