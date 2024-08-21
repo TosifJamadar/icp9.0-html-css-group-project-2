@@ -3,7 +3,7 @@
     padding: 0;
 }
 .Style{
-    font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script",cursive;
 }
 .nav_bar{
     display: flex;
@@ -38,7 +38,7 @@ a:hover{
     transition: 1s;
 }
 .index{
-    height: 663px;
+    height: 550px;
     width: 100vw;
 }
 
@@ -95,6 +95,11 @@ a:hover{
     margin: 50px 0 0 50px;
     border-radius: 10px;
 }
+.Content:hover{
+    box-shadow: 0 0 20px 7px  #232946;
+    transition: 1s;
+    cursor: pointer;
+}
 #Content_Heading{
     font-size: 50px;
     color: white;
@@ -110,8 +115,13 @@ a:hover{
     font-size: 20px;
     padding: 5px 20px;
     border-radius: 20px;
-    background-color: rgb(227, 194, 29);
+    background-color: #ffdb4d;
     border: none;
+}
+#Content_btn:hover{
+    background-color: #ffa31a;
+    transition: 1s;
+    cursor: pointer;
 }
 #Champian_heading{
     margin-top: 50px;
@@ -127,38 +137,76 @@ a:hover{
     height: 200px;
     width: 200px;
     margin: 50px 0 0 20px;
-    border-radius: 50%;
+    border-radius: 20%;
 }
-
-
-
+#Champian:hover{
+    box-shadow: 0 0 10px 7px gray;
+    cursor: pointer;
+    border: 2px solid black;
+}
 .Footer{
-    height: 400px;
+    display: flex;
+    height: 230px;
     width: 100%;
-    margin-top: 150px;
     background-color: #232946;
+    margin-top: 100px;
+    justify-content: center;
 }
-#Logo_img{
-    height: 150px;
+.G-11{
+    margin: 30px 0 0 30px;
+    height: 230px;
+    width: 370px;
+}
+.Quick{
+    display: flex;
+}
+#Quick_Left{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+}
+#Quick_Right{
+    height: 100px;
     width: 150px;
-    margin: 20px 0 0 620px;
-}
-#Footer_Heading{
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
-}
-#Footer_Description{
-    color: white;
-    text-align: center;
-    margin: 5px;
 }
 #Footer_img{
-    margin-left: 620px;
+    height: 50px;
+    width: 50px;
 }
-#icon_img{
+#Footer_heading{
+    font-size: 25px;
+    color: white;
+}
+#Footer_Icon{
+    margin: 20px 0 0 10px;
     height: 30px;
     width: 30px;
-    margin: 10px 0 0 10px;
+}
+#Heading{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 10px 40px;
+}
+#Quick_Content{
+    color: white;
+    margin: 10px;
+}
+#Contact_heading{
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+#Contact{
+    margin-left: 50px;
+    color: white;
+}
+#location{
+    height: 20px;
+    width: 20px;
+}
+#Copy{
+    background-color: #232946;
+    text-align: center;
+    color: white;
+    height: 50px;
 }
