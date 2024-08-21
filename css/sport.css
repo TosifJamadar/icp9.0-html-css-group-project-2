@@ -1,0 +1,56 @@
+.main{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 400px;
+    width: 350px;
+    margin: 50px 0 0 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.card:hover{
+    box-shadow: 0 0 10px 5px grey;
+}
+
+#swimming-img{
+    height:200px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+#basketball-img{
+    height:200px;
+    width: 340px;
+    border-radius: 10px;
+}
+
+#heading{
+   font-size: 30px;
+   margin-top: 20px; 
+}
+
+.btn{
+ background-color: #ffff80;   
+ color: black;
+ padding: 5px 20px;
+ border: solid 2px;
+ border-radius: 20px 0 20px 0;
+ margin: 30px;
+ text-align: left;
+
+}
+.btn:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+    background-color: #ffc266;
+    border-radius: 0px 20px 0px 20px;
+    color: black;
+
+}
+
