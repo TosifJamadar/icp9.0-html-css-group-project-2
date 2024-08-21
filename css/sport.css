@@ -1,5 +1,5 @@
 .main{
-    height: 600px;
+    height: 800px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -33,6 +33,7 @@
 #heading{
    font-size: 30px;
    margin-top: 20px; 
+   text-decoration: none;
 }
 
 .btn{
@@ -40,7 +41,7 @@
  color: black;
  padding: 5px 20px;
  border: solid 2px;
- border-radius: 20px 0 20px 0;
+ border-radius: 15px;
  margin: 30px;
  text-align: left;
 
@@ -49,8 +50,14 @@
     border-radius: 20px;
     transition: 0.5s;
     background-color: #ffc266;
-    border-radius: 0px 20px 0px 20px;
+    border-radius: 10px;
     color: black;
 
 }
+
+.sub-heading{
+    color: brown;
+}
+
+
 
