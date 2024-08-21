@@ -138,19 +138,20 @@ table {
     height: 50px;
 }
 /* Desktop view */
-@media (min-width: 1024px) {
+@media (min-height: 1024px) {
   body {
     font-size: 18px;
     background-color: #f0f0f0;
   }
   .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
   .header, .footer {
     padding: 20px;
   }
 }
+
 /* Phone view */
 @media (max-width: 767px) {
   body {
