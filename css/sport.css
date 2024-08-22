@@ -1,5 +1,5 @@
 .main{
-    height: 800px;
+    height: 900px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -19,9 +19,11 @@
 
 #swimming-img{
     height:200px;
-    width: 350px;
+    width: 250px;
     border-radius: 10px;
-    
+    margin-right:20px ;
+  padding: 15px;
+   
 }
 
 #basketball-img{
@@ -34,29 +36,35 @@
    font-size: 30px;
    margin-top: 20px; 
    text-decoration: none;
+   text-align: center;
 }
 
-.btn{
- background-color: #ffff80;   
- color: black;
- padding: 5px 20px;
- border: solid 2px;
- border-radius: 15px;
- margin: 30px;
- text-align: left;
-
+.button{
+ font-size: 18px;
+ padding: 10px 20px;
+ border: none;
+ cursor: pointer;
+ border-radius:20px ;
+   margin: 10px;
+background-color: #ffcc00;
+ text-align: center;
+margin-left:110px;
 }
-.btn:hover{
+
+.button:hover{
     border-radius: 20px;
+    background-color: #ff9933;
     transition: 0.5s;
-    background-color: #ffc266;
-    border-radius: 10px;
-    color: black;
-
+   color: black;
+   text-align: center;
 }
-
+   
 .sub-heading{
     color: brown;
+}
+
+.quote{
+    text-align: center;
 }
 
 
