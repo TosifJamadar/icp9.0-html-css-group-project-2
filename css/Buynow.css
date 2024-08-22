@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+
+    color: black;
     padding: 10px 0;
     text-align: center;
 }
@@ -72,7 +72,8 @@ form label {
     margin: 10px 0 5px;
 }
 
-form select, form input {
+form select,
+form input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -83,8 +84,8 @@ form select, form input {
 .buy-now-btn {
     display: inline-block;
     padding: 10px 20px;
-    background: #e44d26;
-    color: #fff;
+    background: yellow;
+    color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -93,10 +94,11 @@ form select, form input {
 }
 
 .buy-now-btn:hover {
-    background: #d43f1c;
+    background: orange;
 }
 
-.additional-info, .customer-support {
+.additional-info,
+.customer-support {
     margin: 20px 0;
     padding: 20px;
     background: #fff;
@@ -105,14 +107,14 @@ form select, form input {
 }
 
 footer {
-    background: #333;
-    color: #fff;
+
+    color: black;
     text-align: center;
     padding: 10px 0;
 }
 
 footer a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -120,7 +122,8 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-.product-image{
+
+.product-image {
     height: 100px;
-    
+
 }
