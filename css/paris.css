@@ -25,6 +25,8 @@
 .card-flex{
     display:flex;
     justify-content: space-around;
+    flex-wrap:wrap;
+    
 }
 .Container-game{
     display: flex;
@@ -32,6 +34,8 @@
     height: 550px;
     width: 100%;
     margin-top: 50px;
+    
+    
 
 }
 .Content-game{
@@ -40,15 +44,21 @@
     background-color: #232946;
     margin: 50px 0 0 50px;
     border-radius: 10px;
+    
+    
 }
 #Content_Heading-game{
     font-size: 50px;
     color: white;
     margin: 10px;
+
+    
 }
 #Content_Decription-game{
     margin: 10px;
     color: white;
+
+    
     
 }
 #Content_btn-game{
@@ -60,10 +70,17 @@
     background-color: rgb(227, 194, 29);
     border: none;
     cursor:pointer;
+
+    
 }
 #Content_btn-game:hover{
     box-shadow: 2px 2px 2px 2px black;
 }
 .Content-game:hover{
     box-shadow: 2px 2px 2px 2px black;
+}
+.img-margin{
+    margin: 50px auto;
+    display:block;
+    
 }
